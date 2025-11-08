@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aync's Dashboard</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0a0a0f;
+        color: white;
+    }
+
+    header {
+        background: linear-gradient(135deg, #6c00ff, #2d006e);
+        padding: 15px 20px;
+        box-shadow: 0 0 15px rgba(108,0,255,0.5);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    header img {
+        width: 50px;
+        height: 50px;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(108,0,255,0.5);
+        position: absolute;
+        left: 0;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero {
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    .hero h2 {
+        font-size: 2.4rem;
+        color: #b884ff;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 10px auto;
+        opacity: 0.8;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 14px 30px;
+        background: #6c00ff;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        box-shadow: 0 0 12px rgba(108,0,255,0.5);
+        transition: 0.2s;
+    }
+
+    .btn:hover {
+        background: #8b32ff;
+        box-shadow: 0 0 18px rgba(139,50,255,0.7);
+    }
+
+    .section {
+        padding: 60px 20px;
+        text-align: center;
+        background: #0f0f17;
+        margin-top: 40px;
+        border-top: 1px solid #2c2c3a;
+    }
+
+    .section h3 {
+        font-size: 1.8rem;
+        color: #cda1ff;
+    }
+
+    .features {
+        max-width: 900px;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background: #1a1a25;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(108,0,255,0.25);
+        transition: 0.25s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 20px rgba(108,0,255,0.45);
+    }
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        margin-top: 60px;
+        opacity: 0.5;
+        font-size: 0.9rem;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-container">
+        <img src="Images/icon.png" alt="Aync's Logo">
+        <h1>The Aync's</h1>
+    </div>
+</header>
+
+<section class="hero">
+    <h2>Aync's Server</h2>
+    <p>A community that helps new players learn how to play ADOFAI, understand patterns, and edit using the level editor.</p>
+
+    <a href="https://discord.gg/YXcntPubKx" class="btn" target="_blank">Join The Server</a>
+</section>
+
+<section class="section">
+    <h3>What We Help You With</h3>
+
+    <div class="features">
+        <div class="card">
+            <h4>Learn The Basics</h4>
+            <p>Understand how ADOFAI works, the timing system, and gameplay mechanics.</p>
+        </div>
+
+        <div class="card">
+            <h4>Editor Tutorials</h4>
+            <p>Step-by-step guidance on how to build levels using the official editor.</p>
+        </div>
+
+        <div class="card">
+            <h4>Improvement Tips</h4>
+            <p>We help new users improve their editing and gameplay skills.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2025 The Aync's. All rights reserved.
+</footer>
+
+</body>
+</html>
